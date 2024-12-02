@@ -19,3 +19,7 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+p:nth-of-type(5n) {
+  @apply py-2 text-green-900 font-bold border-b mb-4;
+}
